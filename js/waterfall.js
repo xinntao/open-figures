@@ -31,7 +31,12 @@ var waterFall = {
 
         var e = document.createElement("div");
         e.className = "unit";
-        e.innerHTML = '<img src="'+ url_img +'" /><strong>'+ title +'</strong>';
+        e.innerHTML = '<img src="'+ url_img +'" />'
+        e.innerHTML += '<a href="'+ url_project + '"><strong>'+ title +'</strong></a>';
+        e.innerHTML += '<table align="center" cellspacing="0" cellpadding="5"><tr>'
+                    + '<td><a href="'+ url_paper +'">Paper</a></td>'
+                    + '<td><a href="'+ url_src +'">Source</a></td>'
+                    + '</tr></table>';
         column.appendChild(e);
 
         this.index += 1;

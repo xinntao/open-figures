@@ -4,8 +4,8 @@ body {
     text-align: justify;
     margin: 0px;
 }
-strong {
-    font-size: 18px;
+a {
+    text-decoration: none;
 }
 .navbar-fixed-top {
     position: fixed;
@@ -60,4 +60,15 @@ strong {
 }
 .unit strong {
     color: #333;
+    font-size: 18px;
+}
+.unit table {
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.unit td {
+    text-align: center;
+    text-decoration: none;
 }
